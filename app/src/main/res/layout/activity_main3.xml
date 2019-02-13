@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main3Activity"
+    android:background="#FEFEFE"
+    android:padding="10dp">
+
+    <TextView
+        android:background="#363636"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIENVENIDO A"
+        android:textAlignment="center"
+        android:textSize="36dp"
+        android:textColor="#FEFEFE"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"/>
+    <TextView
+        android:background="#363636"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CINEMETS"
+        android:textAlignment="center"
+        android:textSize="46dp"
+        android:textColor="#FEFEFE"
+        android:textStyle="bold|italic"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:background="#ED184E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/card_basica"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/card_oro"
+        android:background="#FFC107"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/card_premium"
+        android:background="#212121"
+    android:layout_marginBottom="5dp"
+        android:padding="5dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:src="@drawable/american_express"
+        android:padding="5dp"
+        android:background="#E0E0E0"/>
+
+
+
+</LinearLayout>

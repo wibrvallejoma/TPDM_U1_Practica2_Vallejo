@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="6"
+    tools:context=".Main4Activity"
+    android:padding="15dp"
+    android:background="#EEEEEE"
+    >
+
+    <TextView
+        android:textColor="#212121"
+        android:textStyle="bold"
+        android:text="¿Cual es incorrecta?"
+        android:textSize="36dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_columnSpan="2"
+        />
+
+    <ImageView
+        android:background="@drawable/redondeado"
+        android:layout_gravity="center"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/twotone_vpn_key_black_48"
+        />
+
+
+    <ImageView
+        android:background="@drawable/redondeado"
+        android:layout_gravity="center"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/twotone_watch_black_48"
+        />
+
+    <RadioButton
+        android:textColor="#212121"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Key"
+        android:textSize="30dp"
+        android:textStyle="normal"
+        android:layout_gravity="top|center"
+        />
+
+    <RadioButton
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:text="Guach"
+        android:textSize="30dp"
+        android:textStyle="normal"
+        />
+
+    <ImageView
+        android:background="@drawable/redondeado"
+        android:layout_gravity="center"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/twotone_videogame_asset_black_48"
+        />
+
+    <ImageView
+        android:background="@drawable/redondeado"
+        android:layout_gravity="center"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/twotone_local_shipping_black_48"
+        />
+
+    <RadioButton
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:text="Controller"
+        android:textSize="30dp"
+        android:layout_gravity="center|top"
+        />
+
+    <RadioButton
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:text="Car"
+        android:textSize="30dp"
+        android:layout_gravity="center|top"
+        />
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="Verificar"
+        android:layout_columnSpan="2"
+        android:padding="10dp"
+        android:background="@drawable/redondeado"
+        />
+
+</GridLayout>

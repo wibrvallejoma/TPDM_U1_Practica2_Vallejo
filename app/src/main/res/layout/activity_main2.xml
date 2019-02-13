@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/clock1920">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/escritorio"
+        android:id="@+id/escritorio"
+        android:layout_below="@id/texto"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:src="@drawable/keyboard"
+        android:id="@+id/keyboard"
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/numero_23"
+        android:id="@+id/numero"
+        android:layout_above="@id/texto"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGENIOUS WAYS TO WORK SMARTER, NOT HARDER"
+        android:textSize="34dp"
+        android:textColor="#FAFAFA"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/texto"
+        android:layout_below="@id/keyboard"
+        />
+</RelativeLayout>
